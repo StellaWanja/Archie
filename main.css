@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar style*/
+.navbar-brand{
+    color: #ffffff;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+.navbar-brand:hover{
+    color: #ff2025;
+}
+#nav_color{
+    background-color: black;
+}
+.navbar-brand span{
+    color: #ff2025;
+}
+.nav-link{
+    font-weight: bold;
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: #ff2025;
+}
+
+/*landing page*/
+#landing_pg{
+    background-image: url("images/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    color: #ffffff;
+}
+#mid_text{
+    float: left;
+    margin-top: 20%;
+    margin-left: 18%;
+    line-height: 50px;
+}
+#landing_pg h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#landing_pg h2 span{
+    color: #ff2025;
+}
+#landing_pg a{
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+#landing_pg #start{
+    margin-left: 30%;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#landing_pg #start:hover{
+    color: #ffffff;
+    background-color: #ff2025;
+    border: 2px solid #ff2025;
+    text-decoration: none;
+}
+#landing_pg #next{
+    color: #ffffff;
+    border: 2px solid #ff2025;
+    background-color: #ff2025;
+    border-radius: 20px;
+}
+#landing_pg #next:hover{
+    color: #ffffff;
+    border: 2px solid #ff2025;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*section_a*/
+#section_a{
+    padding: 50px;
+}
+#section_a h2{
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.box{
+    height: 100px;
+    width: 200px;
+}
+.top_text{
+    margin-left: 10%;
+    border: 2px solid #ff2025;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.top_text .tag{
+    margin-top: 30%;
+    margin-left: 35%;
+    font-size: 2em;
+    color: #ff2025;
+}
+.btm_text{
+    padding-top: 20px;
+}
+.btm_text h6{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
