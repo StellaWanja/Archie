@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--bootstrap cdn-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--local files-->
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="owl.carousel.css">
     <link rel="stylesheet" href="main.css">
+
     <title>Archie</title>
 </head>
 
 <body>
 
 <!--navbar-->
-<nav class="navbar navbar-expand-lg" id="nav_color">
+<nav class="navbar navbar-expand-lg sticky-top " id="nav_color">
     <a class="navbar-brand" href="#">Arch<span>i</span>e</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,67 +57,390 @@
     <div id="mid_text">
         <h2>Welcome to Arch<span>i</span>e</h2>
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, impedit.</h4>
-        <a href="" role="button" id="start">Start Now</a>
+        <a href="" role="button" id="start">Get Started</a>
         <a href="" role="button" id="next">Learn More</a>
     </div>
 </section>
 
-<!--section-a-->
+<!--section-a services-->
 <section class="container" id="section_a">
     <h2>Our Services</h2>
-    <div class="row">
-        <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
-            <div class="box">
-                <div class="top_text">
-                    <i class="fas fa-warehouse tag"></i>
-                </div>
-                <div class="btm_text">
-                    <h6>Warehousing</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
+    <div class="card-deck">
+        <div class="card" style="border: none">
+            <div class="top_text">
+                <i class="fas fa-warehouse tag"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Warehousing</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
             </div>
         </div>
-        <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
-            <div class="box">
-                <div class="top_text">
-                    <i class="fas fa-truck tag"></i>
-                </div>
-                <div class="btm_text">
-                    <h6>Transport</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
+        <div class="card" style="border: none">
+            <div class="top_text">
+                <i class="fas fa-truck tag"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Transport</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
             </div>
         </div>
-        <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
-            <div class="box">
-                <div class="top_text">
-                    <i class="fas fa-shield-alt tag"></i>
-                </div>
-                <div class="btm_text">
-                    <h6>Security</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
+        <div class="card" style="border: none">
+            <div class="top_text">
+                <i class="fas fa-shield-alt tag"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Security</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
             </div>
         </div>
-        <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
-            <div class="box">
-                <div class="top_text">
-                    <i class="fas fa-clipboard-list tag"></i>
-                </div>
-                <div class="btm_text">
-                    <h6>Inventory</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
+        <div class="card" style="border: none">
+            <div class="top_text">
+                <i class="fas fa-clipboard-list tag"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Inventory</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
             </div>
         </div>
     </div>
 </section>
+
+<!--section-b about-->
+<section class="container-fluid" id="section_b">
+    <div class="row">
+        <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <img src="images/image2.jpg" alt="" style="width: 100%; height: 100vh">
+        </div>
+        <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" style="padding-left: 50px">
+            <h5 style="color: #ff2025; margin-top: 20%">Who we are</h5>
+            <h3 style="padding-top: 10px; padding-bottom: 20px">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+            <i class="far fa-check-circle" style="font-size: 2em"></i>
+            <h5 style="display: inline" id="itext">We've got your back!</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium, aliquid animi corporis cum doloremque eos in ipsa iste itaque iure laboriosam maxime modi necessitatibus officia optio perferendis possimus quas quisquam ratione sapiente sequi soluta tempora unde ut voluptas voluptatum. Accusamus consequuntur earum illum incidunt necessitatibus, odio odit quibusdam sed.</p>
+            <a href="" role="button" id="learn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!--counter up section-->
+<section class="container" id="middle">
+        <div class="inner-width" style="padding-top: 50px">
+            <div class="row">
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <i class="fas fa-user-alt"></i>
+                <div class="num">1200</div>
+                <p>Clients</p>
+            </div>
+
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <i class="fas fa-warehouse"></i>
+                <div class="num">75</div>
+                <p>No. of Warehouses</p>
+            </div>
+
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <i class="fas fa-globe"></i>
+                <div class="num">39</div>
+                <p>Countries Available</p>
+            </div>
+
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <i class="fas fa-medal"></i>
+                <div class="num">8</div>
+                <p>Award Winner</p>
+            </div>
+
+            </div>
+        </div>
+</section>
+
+<!--section_c services-->
+<section class="container" id="section_c">
+    <div class="card-deck">
+        <div class="card" style="border: none">
+            <div class="top">
+                <i class="fas fa-truck tag1"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Transportation</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
+            </div>
+        </div>
+        <div class="card" style="border: none">
+            <div class="top">
+                <i class="fas fa-boxes tag1"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Packaging</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
+            </div>
+        </div>
+        <div class="card" style="border: none">
+            <div class="top">
+                <i class="fas fa-warehouse tag1"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Storage</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-deck" style="padding-top: 20px">
+        <div class="card" style="border: none">
+            <div class="top">
+                <i class="fas fa-truck-loading tag1"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Material Handling</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
+            </div>
+        </div>
+        <div class="card" style="border: none">
+            <div class="top">
+                <i class="fas fa-qrcode tag1"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Bar Coding</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
+            </div>
+        </div>
+        <div class="card" style="border: none">
+            <div class="top">
+                <i class="fas fa-shield-alt tag1"></i>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">24/7 Security</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, Deserunt ex excepturi illum</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section_d parallax-->
+<section class="container-fluid" id="section_d">
+    <div id="parallax">
+        <div class="row">
+            <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div id="content_box">
+                    <h5>We're here for you!</h5>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    <p><i class="far fa-envelope" style="color: #ff2025"></i> info@archie.com</p>
+                    <p><i class="fas fa-mobile-alt" style="color: #ff2025"></i> +254 100 200 300</p>
+                </div>
+            </div>
+            <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6"></div>
+        </div>
+    </div>
+</section>
+
+<!--testimonials-->
+<section class="container" id="testimonial-area">
+    <h2>Testimonials</h2>
+    <div class="owl-carousel test-slides" id="testimonial-carousel">
+
+        <div class="item">
+            <div class="single-testimonial">
+                <div class="img-area">
+                    <img src="images/img4.jpg" alt="">
+                </div>
+                <div class="testimonial-text">
+                    <h4>Daisy Nickel <span>Executive Director, ABC Ltd.</span></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem id ipsam ipsum voluptate. Blanditiis.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="single-testimonial">
+                <div class="img-area">
+                    <img src="images/img5.jpg" alt="">
+                </div>
+                <div class="testimonial-text">
+                    <h4>Martin Brook <span>Senior Manager, XYZ Co.</span></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem id ipsam ipsum voluptate. Blanditiis.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="single-testimonial">
+                <div class="img-area">
+                    <img src="images/img6.jpg" alt="">
+                </div>
+                <div class="testimonial-text">
+                    <h4>Hadeel Sayeed <span>Sales Manager, 123 Ltd.</span></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem id ipsam ipsum voluptate. Blanditiis.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--news-->
+<section class="container-fluid" id="latest-news">
+    <h2>Latest Articles</h2>
+    <div class="card-deck" style="padding:50px 100px">
+        <div class="card" style="background-color: transparent">
+            <img src="images/img8.jpg" class="card-img-top" alt="..." style="height: 220px">
+            <div class="card-body">
+                <h5 class="card-title text-left">IT and Supply Chain Management</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <button class="card-btn">LEARN MORE</button>
+            </div>
+        </div>
+        <div class="card" style="background-color: transparent">
+            <img src="images/img9.jpg" class="card-img-top" alt="..." style="height: 220px">
+            <div class="card-body">
+                <h5 class="card-title text-left">Boosting Warehouse Productivity</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <button class="card-btn">LEARN MORE</button>
+            </div>
+        </div>
+        <div class="card" style="background-color: transparent">
+            <img src="images/img10.jpg" class="card-img-top" alt="..." style="height: 220px">
+            <div class="card-body">
+                <h5 class="card-title text-left">Supply Chain Visualization at a Glance</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <button class="card-btn">LEARN MORE</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact-->
+<section class="container" id="contact-us">
+    <div class="row">
+        <div class="col col-sm-8 col-md-8 col-xl-8 col-lg-8">
+            <h2>Entrust us Lorem ipsum dolor sit amet.</h2>
+        </div>
+        <div class="col col-sm-4 col-md-4 col-xl-4 col-lg-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#exampleModalCenter">
+                Contact Us
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Contact Us</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" method="post">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label for="">Name</label>
+                                        <input type="text" name="name" class="form-control" placeholder="Enter your Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Email</label>
+                                        <input type="email" name="email" class="form-control" placeholder="Enter your Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Your Message</label>
+                                        <textarea name="" id="" placeholder="Message" class="form-control"></textarea>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn modal-btn-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn modal-btn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--footer-->
+<footer class="container-fluid" id="footer">
+
+    <div class="row">
+        <div class="col col-sm-4 col-md-4 col-xl-4 col-lg-4 ">
+            <h5 style="padding-left: 50px">Arch<span style="color: #ff2025">i</span>e</h5>
+            <ul>
+                <a href="">Terms & Conditions</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Support</a>
+                <a href="">FAQ</a>
+            </ul>
+        </div>
+        <div class="col col-sm-4 col-md-4 col-xl-4 col-lg-4 ">
+            <h5>Subscribe</h5>
+            <p>Subscribe to get latest news article and resources </p>
+            <div id="form">
+                <form class="form-inline my-2">
+                    <input class="form-control mr-sm-2" style="width: 65%" type="url" placeholder="Enter your email address" aria-label="Submit">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <div class="col col-sm-4 col-md-4 col-xl-4 col-lg-4 ">
+            <h5>Arch<span style="color: #ff2025">i</span>e</h5>
+            <p><i class="far fa-envelope" style="color: #fff"></i> info@archie.com</p>
+            <p><i class="fas fa-mobile-alt" style="color: #fff"></i> +254 100 200 300</p>
+        </div>
+    </div>
+    <p class="last">Archie &copy; 2020. All Rights Reserved.</p>
+</footer>
 
 
 <!--scripts-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!--jquery cdn-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--counterup number cdn-->
+<!--counts up to a targeted number when the number becomes visible-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<!--waypoints.js-->
+<!--execute function when you scroll to an element-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+<script src="jquery.counterup.min.js"></script>
+<script src="jquery.waypoints.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+
+<!--count number-->
+<script type="text/javascript">
+    $('.num').counterUp({
+            delay: 20, //delay time in ms
+            time: 1000, //speed time in ms
+    });
+</script>
+
+<!--testimonial carousel-->
+<script type="text/javascript">
+    $('#testimonial-carousel').owlCarousel({
+        autoplay:true,
+        dots: false,
+        nav:true,
+        loop:true,
+        navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:2
+            }
+        }
+    });
+</script>
 
 </body>
 </html>
