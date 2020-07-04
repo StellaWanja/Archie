@@ -7,11 +7,9 @@
     <list default="true" id="1edb096f-d7d5-4c6c-b8ab-43eff91309a4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/my projects.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Wanderlust/.idea/Wanderlust.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -48,39 +44,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\STELLA\Desktop\phpstormprojects\myprojects\Archie\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1YfA54JDffXIHeskgySHzvL0BAp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Adams &amp; Abigail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,29 +75,32 @@
       <workItem from="1583845899008" duration="2781000" />
       <workItem from="1583853284378" duration="10350000" />
       <workItem from="1584434393116" duration="19385000" />
-      <workItem from="1584535440059" duration="24988000" />
+      <workItem from="1584535440059" duration="25795000" />
+      <workItem from="1584687089963" duration="3145000" />
+      <workItem from="1584808821107" duration="373000" />
+      <workItem from="1585553196670" duration="944000" />
+      <workItem from="1585579170467" duration="62000" />
+      <workItem from="1585584498077" duration="29000" />
+      <workItem from="1585648389009" duration="6000" />
+      <workItem from="1591180167266" duration="404000" />
+      <workItem from="1591181094020" duration="11000" />
+      <workItem from="1591188393201" duration="139000" />
+      <workItem from="1593863830998" duration="654000" />
+      <workItem from="1593869785744" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="430" y="220" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584624817930">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593869962892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="430" y="220" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1584624817930" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583944593084">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593869962892" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585553195638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583944593084" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1584535440122">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584535440122" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1583763930292">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583763930292" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585553195638" />
   </component>
 </project>
