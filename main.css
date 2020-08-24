@@ -120,12 +120,19 @@ body{
 #section_b{
     height: 100vh;
 }
+
+#section_b img{
+    height: 100vh;
+    width: 100%;
+}
+
 #section_b h3{
     font-weight: bold;
 }
 #section_b h5{
     font-weight: bold;
 }
+
 #section_b p{
     padding-top: 20px;
     text-align: justify;

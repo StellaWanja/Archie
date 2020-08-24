@@ -3,13 +3,42 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1edb096f-d7d5-4c6c-b8ab-43eff91309a4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/my projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bettys Bakery/.idea/Bettys Bakery.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Wanderlust/.idea/Wanderlust.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Archie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Archie.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/image2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/image3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/img9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +83,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../xampp/htdocs/Archie" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,20 +118,29 @@
       <workItem from="1591188393201" duration="139000" />
       <workItem from="1593863830998" duration="654000" />
       <workItem from="1593869785744" duration="166000" />
+      <workItem from="1593869966831" duration="346000" />
+      <workItem from="1598263611660" duration="9242000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1593869962892">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598269127652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593869962892" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585553195638">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585553195638" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598269127652" />
   </component>
 </project>
